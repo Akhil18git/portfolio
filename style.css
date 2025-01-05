@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css?family=Raleway:400,700");
 :root {
 	--primary: #fb4d62;
-	--secondary: orange;
+	--secondary: rgb(71, 84, 48);
 	--font-size1: 24px;
 		scroll-behavior: smooth;
 	scrollbar-color: var(--primary);
@@ -15,7 +15,7 @@ body {
 	padding: 0px;
 	margin: 0px;
 	width: 100vw;
-	background-color: papayawhip;
+	background-color: rgba(180, 202, 208);
 	overflow-x: hidden;
 }
 .pic{
@@ -114,6 +114,8 @@ section {
 	font-size: 20px;
 	text-align: center;
 	align-items: center;
+	position: relative;
+	left: 35%;
 }
 .cardbutton{
 	display: flex;
@@ -171,7 +173,7 @@ section {
 }
 .card
 {
-    box-shadow: 10px 10px black;
+    box-shadow: 5px 5px black;
     padding: 30px;
     border-radius: 20px;
     transition: all 1s ease;
@@ -220,8 +222,8 @@ input::placeholder{
 	color: black;
 }
 .social-icons img {
-    width: 30px;
-    height: 30px;
+    width: 3.5%;
+    height: 3.5%;
     margin-right: 10px;
     transition: transform 0.3s ease;
     cursor: pointer;
@@ -262,6 +264,9 @@ input::placeholder{
      width:100%;
      
     }
+	a{
+		color: black;
+	}
     .buttons{
         justify-content: center;
     }
@@ -270,6 +275,12 @@ input::placeholder{
     }
 	#skills{
 		grid-template-columns: repeat(1,auto);
+	}
+	.social-icons a img{
+		grid-template-columns: repeat(1,auto);
+		width: 0.5%;
+		height: 1%;
+		font-size: 1px;
 	}
 }
 @media (max-width: 480px) {
