@@ -6,6 +6,7 @@
 		scroll-behavior: smooth;
 	scrollbar-color: var(--primary);
 	scrollbar-highlight-color: aqua;
+	cursor: pointer;
 }
 
 body {
@@ -15,7 +16,7 @@ body {
 	margin: 0px;
 	width: 100vw;
 	background-color: papayawhip;
-	overflow: hidden;
+	overflow-x: hidden;
 }
 .pic{
 	height: 400px;
@@ -85,8 +86,8 @@ section {
 	display: flex;
 	gap: 30px;
     max-width: 1400px;
-	 /* animation: basic 2s ease infinite;  */
-   overflow-x: hidden;
+	/*animation: basic 2s ease infinite;*/
+    overflow-x: hidden;
 }
 .slides
 {
@@ -122,11 +123,12 @@ section {
 /* banner css ends here */
 /* about starts*/
 #about{
-	display: flex;
+	/*display: flex;
 	flex-direction: column;
-    text-align: center;
 	align-items: center;
-	padding: 0 250px;
+	padding: 0 250px;*/
+	text-align: center;
+
 }
  h2{
     font-size: 46px;
